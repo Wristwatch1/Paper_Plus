@@ -1,0 +1,1123 @@
+﻿Log file open, 08/03/16 10:15:18
+LogInit:Display: Running engine for game: MockFlying
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1237294932) SRandInit(1237294933).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.060368
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+LogInit: Version: 4.11.0-2927265+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Mar 30 2016 02:13:55
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: 
+LogInit: Base directory: E:/Unreal Engine 4/TOTALLY LEGIT FILES/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.02-22.15.18:959][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.02-22.15.18:959][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.02-22.15.18:964][  0]LogInit: Computer: 1806C022
+[2016.08.02-22.15.18:964][  0]LogInit: User: danielpri6453
+[2016.08.02-22.15.18:964][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.02-22.15.18:964][  0]LogInit: High frequency timer resolution =3.312822 MHz
+[2016.08.02-22.15.18:964][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.08.02-22.15.18:964][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.02-22.15.18:964][  0]LogMemory: Process Physical Memory: 313.54 MB used, 313.54 MB peak
+[2016.08.02-22.15.18:964][  0]LogMemory: Process Virtual Memory: 316.65 MB used, 316.65 MB peak
+[2016.08.02-22.15.18:964][  0]LogMemory: Physical Memory: 4003.52 MB used, 8150.16 MB total
+[2016.08.02-22.15.18:964][  0]LogMemory: Virtual Memory: 621.81 MB used, 8388608.00 MB total
+[2016.08.02-22.15.18:992][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
+[2016.08.02-22.15.19:350][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.02-22.15.19:365][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 670' (Feature Level 11_0)
+[2016.08.02-22.15.19:365][  0]LogD3D11RHI:       1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.08.02-22.15.19:365][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.02-22.15.19:369][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.02-22.15.19:369][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 670
+[2016.08.02-22.15.19:369][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.08.02-22.15.19:369][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.08.02-22.15.19:369][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.02-22.15.19:374][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.02-22.15.19:389][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Intermediate/Shaders/WorkingDirectory/1624/).
+[2016.08.02-22.15.19:389][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/DANIEL~1.PRI/AppData/Local/Temp/UnrealShaderWorkingDir/5E33B1D94639E85ACC067B83887AD04D/'.
+[2016.08.02-22.15.19:389][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.02-22.15.20:236][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.02-22.15.20:239][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.02-22.15.20:242][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.02-22.15.20:245][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.02-22.15.20:248][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.02-22.15.20:250][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.02-22.15.20:252][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.02-22.15.20:254][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.02-22.15.20:256][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.02-22.15.20:258][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.02-22.15.20:261][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.02-22.15.20:265][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.02-22.15.20:265][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.02-22.15.20:266][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.02-22.15.20:280][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.02-22.15.20:282][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.02-22.15.20:284][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.02-22.15.20:286][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.02-22.15.20:289][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.02-22.15.20:289][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.02-22.15.20:338][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.02-22.15.20:385][  0]LogDerivedDataCache: Loaded boot cache 0.05s 58MB D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.02-22.15.20:385][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.08.02-22.15.20:385][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.02-22.15.20:385][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.02-22.15.20:385][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.02-22.15.20:385][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.02-22.15.20:398][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.02-22.15.20:409][  0]LogDerivedDataCache: Using Local data cache path D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.02-22.15.20:553][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.02-22.15.20:553][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.02-22.15.20:574][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.08.02-22.15.20:687][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.02-22.15.20:687][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.02-22.15.20:687][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.02-22.15.20:898][  0]LogUObjectArray: 27672 objects as part of root set at end of initial load.
+[2016.08.02-22.15.20:898][  0]LogUObjectAllocator: 5589896 out of 0 bytes used by permanent object pool.
+[2016.08.02-22.15.20:898][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.02-22.15.20:902][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.02-22.15.20:957][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.02-22.15.20:958][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.02-22.15.21:031][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.02-22.15.21:031][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.02-22.15.21:031][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.02-22.15.21:031][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.02-22.15.21:031][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.02-22.15.21:031][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.02-22.15.21:492][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.02-22.15.21:591][  0]LogAssetRegistry: FAssetRegistry took 0.0198 seconds to start up
+[2016.08.02-22.15.21:698][  0]SourceControl: Info Source control is disabled
+[2016.08.02-22.15.21:699][  0]SourceControl: Info Source control is disabled
+[2016.08.02-22.15.21:703][  0]SourceControl: Info Source control is disabled
+[2016.08.02-22.15.21:708][  0]SourceControl: Info Source control is disabled
+[2016.08.02-22.15.21:835][  0]LogEngine: Initializing Engine...
+[2016.08.02-22.15.21:836][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.02-22.15.21:955][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.02-22.15.21:959][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.02-22.15.21:972][  0]LogInit: FAudioDevice initialized.
+[2016.08.02-22.15.21:997][  0]LogDerivedDataCache: Saved boot cache 0.02s 58MB D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.02-22.15.22:000][  0]LogInit: Texture streaming: Enabled
+[2016.08.02-22.15.22:021][  0]LogInit: Transaction tracking system initialized
+[2016.08.02-22.15.22:035][  0]BlueprintLog: New page: Editor Load
+[2016.08.02-22.15.22:689][  0]LocalizationService: Info Localization service is disabled
+[2016.08.02-22.15.22:772][  0]LogConsoleResponse:Display: 
+[2016.08.02-22.15.22:876][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.02-22.15.22:876][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.02-22.15.22:876][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.02-22.15.22:913][  0]LogFileCache: Scanning file cache for directory 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/' took 0.01s
+[2016.08.02-22.15.22:913][  0]SourceControl: Info Source control is disabled
+[2016.08.02-22.15.22:953][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 E:/Unreal Engine 4/TOTALLY LEGIT FILES/4.11/FeaturePacks/MobileStarterContent.upack)
+[2016.08.02-22.15.23:443][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.08.02-22.15.23:467][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Floor_400x400.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Floor_400x400.uasset"
+[2016.08.02-22.15.23:509][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset"
+[2016.08.02-22.15.23:570][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x200.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Wall_400x200.uasset"
+[2016.08.02-22.15.23:596][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x300.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Wall_400x300.uasset"
+[2016.08.02-22.15.23:619][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x400.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Wall_400x400.uasset"
+[2016.08.02-22.15.23:650][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_500x500.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Wall_500x500.uasset"
+[2016.08.02-22.15.23:675][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.08.02-22.15.23:713][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.08.02-22.15.23:732][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.08.02-22.15.23:767][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.08.02-22.15.23:898][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Collapse01.uasset"
+[2016.08.02-22.15.23:990][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse02.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Collapse02.uasset"
+[2016.08.02-22.15.24:021][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse_Cue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Collapse_Cue.uasset"
+[2016.08.02-22.15.24:124][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Explosion01.uasset"
+[2016.08.02-22.15.24:251][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion02.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Explosion02.uasset"
+[2016.08.02-22.15.24:266][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion_Cue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Explosion_Cue.uasset"
+[2016.08.02-22.15.24:344][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Fire01.uasset"
+[2016.08.02-22.15.24:346][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01_Cue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Fire01_Cue.uasset"
+[2016.08.02-22.15.24:368][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset"
+[2016.08.02-22.15.24:369][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.08.02-22.15.24:403][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Light01.uasset"
+[2016.08.02-22.15.24:428][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01_Cue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Light01_Cue.uasset"
+[2016.08.02-22.15.24:484][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Light02.uasset"
+[2016.08.02-22.15.24:486][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02_Cue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Light02_Cue.uasset"
+[2016.08.02-22.15.24:539][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Smoke01.uasset"
+[2016.08.02-22.15.24:556][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset"
+[2016.08.02-22.15.24:572][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.08.02-22.15.24:849][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Birds01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Starter_Birds01.uasset"
+[2016.08.02-22.15.25:117][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Starter_Music01.uasset"
+[2016.08.02-22.15.25:153][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.08.02-22.15.25:178][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind05.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Starter_Wind05.uasset"
+[2016.08.02-22.15.25:206][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind06.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Starter_Wind06.uasset"
+[2016.08.02-22.15.25:218][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Steam01.uasset"
+[2016.08.02-22.15.25:228][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01_Cue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Audio/Steam01_Cue.uasset"
+[2016.08.02-22.15.25:240][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.08.02-22.15.25:264][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.08.02-22.15.25:266][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.08.02-22.15.25:268][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.08.02-22.15.25:269][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.08.02-22.15.25:276][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.08.02-22.15.25:326][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default.umap" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Maps/Minimal_Default.umap"
+[2016.08.02-22.15.25:512][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap.umap" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Maps/StarterMap.umap"
+[2016.08.02-22.15.25:524][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset"
+[2016.08.02-22.15.25:525][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset"
+[2016.08.02-22.15.25:564][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.08.02-22.15.25:566][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.08.02-22.15.25:568][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.08.02-22.15.25:570][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.08.02-22.15.25:572][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.08.02-22.15.25:585][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.08.02-22.15.25:605][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.08.02-22.15.25:607][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.08.02-22.15.25:622][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.08.02-22.15.25:626][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.08.02-22.15.25:629][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.08.02-22.15.25:630][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.08.02-22.15.25:632][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.08.02-22.15.25:644][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Glass.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Glass.uasset"
+[2016.08.02-22.15.25:647][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset"
+[2016.08.02-22.15.25:648][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.08.02-22.15.25:650][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset"
+[2016.08.02-22.15.25:662][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.08.02-22.15.25:664][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.08.02-22.15.25:665][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.08.02-22.15.25:667][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset"
+[2016.08.02-22.15.25:669][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset"
+[2016.08.02-22.15.25:670][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset"
+[2016.08.02-22.15.25:673][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset"
+[2016.08.02-22.15.25:680][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.08.02-22.15.25:682][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.08.02-22.15.25:685][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.08.02-22.15.25:687][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset"
+[2016.08.02-22.15.25:701][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.08.02-22.15.25:703][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.08.02-22.15.25:705][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.08.02-22.15.25:707][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset"
+[2016.08.02-22.15.25:716][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Lake.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Water_Lake.uasset"
+[2016.08.02-22.15.25:718][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset"
+[2016.08.02-22.15.25:719][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.08.02-22.15.25:721][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.08.02-22.15.25:724][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset"
+[2016.08.02-22.15.25:726][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset"
+[2016.08.02-22.15.25:728][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.08.02-22.15.25:762][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.08.02-22.15.25:765][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Explosion.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/P_Explosion.uasset"
+[2016.08.02-22.15.25:770][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Fire.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/P_Fire.uasset"
+[2016.08.02-22.15.25:774][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Smoke.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/P_Smoke.uasset"
+[2016.08.02-22.15.25:777][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Sparks.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/P_Sparks.uasset"
+[2016.08.02-22.15.25:785][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset"
+[2016.08.02-22.15.25:791][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.08.02-22.15.25:793][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.08.02-22.15.25:795][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.08.02-22.15.25:796][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.08.02-22.15.25:809][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.08.02-22.15.25:810][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.08.02-22.15.25:812][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.08.02-22.15.25:813][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset"
+[2016.08.02-22.15.25:824][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/MaterialSphere.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/MaterialSphere.uasset"
+[2016.08.02-22.15.25:835][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Bush.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_Bush.uasset"
+[2016.08.02-22.15.25:840][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Chair.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_Chair.uasset"
+[2016.08.02-22.15.25:855][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_CornerFrame.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_CornerFrame.uasset"
+[2016.08.02-22.15.25:858][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Couch.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_Couch.uasset"
+[2016.08.02-22.15.25:864][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Door.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_Door.uasset"
+[2016.08.02-22.15.25:879][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_DoorFrame.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_DoorFrame.uasset"
+[2016.08.02-22.15.25:881][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_GlassWindow.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_GlassWindow.uasset"
+[2016.08.02-22.15.25:886][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.08.02-22.15.25:902][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.08.02-22.15.25:930][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.08.02-22.15.25:943][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_PillarFrame.uasset"
+[2016.08.02-22.15.25:945][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset"
+[2016.08.02-22.15.25:948][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Rock.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_Rock.uasset"
+[2016.08.02-22.15.25:951][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Shelf.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_Shelf.uasset"
+[2016.08.02-22.15.25:954][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Stairs.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_Stairs.uasset"
+[2016.08.02-22.15.25:961][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Statue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_Statue.uasset"
+[2016.08.02-22.15.25:973][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_TableRound.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_TableRound.uasset"
+[2016.08.02-22.15.25:980][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_WindowFrame.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/SM_WindowFrame.uasset"
+[2016.08.02-22.15.25:990][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Bush.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_Bush.uasset"
+[2016.08.02-22.15.25:991][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Chair.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_Chair.uasset"
+[2016.08.02-22.15.26:000][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Door.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_Door.uasset"
+[2016.08.02-22.15.26:009][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Frame.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_Frame.uasset"
+[2016.08.02-22.15.26:042][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset"
+[2016.08.02-22.15.26:047][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.08.02-22.15.26:049][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.08.02-22.15.26:056][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Rock.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_Rock.uasset"
+[2016.08.02-22.15.26:067][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset"
+[2016.08.02-22.15.26:072][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Statue.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_Statue.uasset"
+[2016.08.02-22.15.26:073][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.08.02-22.15.26:076][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset"
+[2016.08.02-22.15.26:084][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cone.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Cone.uasset"
+[2016.08.02-22.15.26:086][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cube.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Cube.uasset"
+[2016.08.02-22.15.26:087][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.08.02-22.15.26:090][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.08.02-22.15.26:095][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset"
+[2016.08.02-22.15.26:097][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.08.02-22.15.26:101][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.08.02-22.15.26:102][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Plane.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Plane.uasset"
+[2016.08.02-22.15.26:103][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.08.02-22.15.26:108][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset"
+[2016.08.02-22.15.26:127][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Torus.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Torus.uasset"
+[2016.08.02-22.15.26:135][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Trim.uasset"
+[2016.08.02-22.15.26:136][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.08.02-22.15.26:138][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.08.02-22.15.26:139][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.08.02-22.15.26:143][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Tube.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Tube.uasset"
+[2016.08.02-22.15.26:158][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.08.02-22.15.26:160][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.08.02-22.15.26:161][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.08.02-22.15.26:192][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.08.02-22.15.26:226][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.08.02-22.15.26:249][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.08.02-22.15.26:278][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.08.02-22.15.26:306][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.08.02-22.15.26:348][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.08.02-22.15.26:389][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.08.02-22.15.26:434][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.08.02-22.15.26:483][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.08.02-22.15.26:513][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.08.02-22.15.26:543][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.08.02-22.15.26:571][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.08.02-22.15.26:609][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.08.02-22.15.26:618][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Burst_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Burst_M.uasset"
+[2016.08.02-22.15.26:630][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Bush_D.uasset"
+[2016.08.02-22.15.26:637][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Bush_N.uasset"
+[2016.08.02-22.15.26:639][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.08.02-22.15.26:671][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.08.02-22.15.26:683][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Chair_M.uasset"
+[2016.08.02-22.15.26:698][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Chair_N.uasset"
+[2016.08.02-22.15.26:707][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.08.02-22.15.26:751][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.08.02-22.15.26:764][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.08.02-22.15.26:808][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.08.02-22.15.26:833][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.08.02-22.15.26:853][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.08.02-22.15.26:932][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.08.02-22.15.26:959][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.08.02-22.15.26:995][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.08.02-22.15.27:038][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.08.02-22.15.27:073][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.08.02-22.15.27:096][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.08.02-22.15.27:138][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.08.02-22.15.27:171][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.08.02-22.15.27:195][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.08.02-22.15.27:225][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.08.02-22.15.27:242][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.08.02-22.15.27:254][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.08.02-22.15.27:271][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.08.02-22.15.27:285][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Door_M.uasset"
+[2016.08.02-22.15.27:291][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Door_N.uasset"
+[2016.08.02-22.15.27:298][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.08.02-22.15.27:321][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.08.02-22.15.27:333][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.08.02-22.15.27:344][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.08.02-22.15.27:353][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Frame_M.uasset"
+[2016.08.02-22.15.27:367][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Frame_N.uasset"
+[2016.08.02-22.15.27:381][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset"
+[2016.08.02-22.15.27:437][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.08.02-22.15.27:477][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.08.02-22.15.27:516][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.08.02-22.15.27:546][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.08.02-22.15.27:586][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.08.02-22.15.27:617][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.08.02-22.15.27:631][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Lamp_M.uasset"
+[2016.08.02-22.15.27:640][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Lamp_N.uasset"
+[2016.08.02-22.15.27:683][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_MacroVariation.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_MacroVariation.uasset"
+[2016.08.02-22.15.27:715][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.08.02-22.15.27:751][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.08.02-22.15.27:791][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.08.02-22.15.27:809][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.08.02-22.15.27:838][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.08.02-22.15.27:884][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.08.02-22.15.27:906][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.08.02-22.15.27:932][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.08.02-22.15.27:960][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.08.02-22.15.27:978][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset"
+[2016.08.02-22.15.28:005][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset"
+[2016.08.02-22.15.28:048][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.08.02-22.15.28:086][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.08.02-22.15.28:107][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.08.02-22.15.28:141][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.08.02-22.15.28:177][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.08.02-22.15.28:238][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.08.02-22.15.28:277][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.08.02-22.15.28:313][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.08.02-22.15.28:328][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Shelf_M.uasset"
+[2016.08.02-22.15.28:352][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Shelf_N.uasset"
+[2016.08.02-22.15.28:359][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.08.02-22.15.28:373][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.08.02-22.15.28:375][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.08.02-22.15.28:387][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Spark_Core.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Spark_Core.uasset"
+[2016.08.02-22.15.28:393][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Statue_M.uasset"
+[2016.08.02-22.15.28:400][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Statue_N.uasset"
+[2016.08.02-22.15.28:413][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_TableRound_M.uasset"
+[2016.08.02-22.15.28:418][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_TableRound_N.uasset"
+[2016.08.02-22.15.28:432][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.08.02-22.15.28:446][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.08.02-22.15.28:456][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.08.02-22.15.28:462][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.08.02-22.15.28:471][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.08.02-22.15.28:486][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.08.02-22.15.28:499][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Water_M.uasset"
+[2016.08.02-22.15.28:510][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Water_N.uasset"
+[2016.08.02-22.15.28:537][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.08.02-22.15.28:551][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.08.02-22.15.28:569][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.08.02-22.15.28:604][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.08.02-22.15.28:638][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.08.02-22.15.28:667][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.08.02-22.15.28:684][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.08.02-22.15.28:710][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.08.02-22.15.28:731][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.08.02-22.15.29:038][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.08.02-22.15.29:304][  0]LogSavePackage: Save=39.73ms
+[2016.08.02-22.15.29:304][  0]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/Floor_400x400E64D30104C800D7938DF1685D026ABD9.tmp' to 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Floor_400x400.uasset'
+[2016.08.02-22.15.29:306][  0]LogSavePackage: Total save time: 55.37ms
+[2016.08.02-22.15.29:306][  0]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/MobileStarterContent/Architecture/Floor_400x400.uasset
+[2016.08.02-22.15.29:307][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.08.02-22.15.29:308][  0]Cmd: MAP LOAD FILE="D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/FlyingBP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.02-22.15.29:308][  0]LightingResults: New page: Lighting Build
+[2016.08.02-22.15.29:312][  0]MapCheck: New page: Map Check
+[2016.08.02-22.15.29:312][  0]LightingResults: New page: Lighting Build
+[2016.08.02-22.15.29:664][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.08.02-22.15.29:809][  0]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.08.02-22.15.29:854][  0]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2016.08.02-22.15.29:890][  0]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2016.08.02-22.15.29:932][  0]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2016.08.02-22.15.29:974][  0]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2016.08.02-22.15.30:004][  0]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2016.08.02-22.15.30:025][  0]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2016.08.02-22.15.30:068][  0]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2016.08.02-22.15.30:127][  0]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2016.08.02-22.15.30:165][  0]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2016.08.02-22.15.30:199][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.08.02-22.15.30:244][  0]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2016.08.02-22.15.30:305][  0]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2016.08.02-22.15.30:308][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.08.02-22.15.30:362][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.08.02-22.15.30:411][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.08.02-22.15.30:459][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.08.02-22.15.30:509][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.08.02-22.15.30:550][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.08.02-22.15.30:588][  0]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.08.02-22.15.30:622][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.08.02-22.15.30:673][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.08.02-22.15.30:699][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2016.08.02-22.15.30:717][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2016.08.02-22.15.30:738][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2016.08.02-22.15.30:756][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2016.08.02-22.15.30:768][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2016.08.02-22.15.30:779][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2016.08.02-22.15.30:797][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2016.08.02-22.15.30:822][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2016.08.02-22.15.30:834][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2016.08.02-22.15.30:847][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.08.02-22.15.30:864][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2016.08.02-22.15.30:891][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2016.08.02-22.15.30:897][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.08.02-22.15.30:915][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.08.02-22.15.30:932][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.08.02-22.15.30:953][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.08.02-22.15.30:972][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.08.02-22.15.30:991][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.08.02-22.15.31:010][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2016.08.02-22.15.31:025][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.08.02-22.15.31:087][  0]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2016.08.02-22.15.31:108][  0]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT)
+[2016.08.02-22.15.31:123][  0]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT)
+[2016.08.02-22.15.31:143][  0]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT)
+[2016.08.02-22.15.31:161][  0]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT)
+[2016.08.02-22.15.31:178][  0]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT)
+[2016.08.02-22.15.31:192][  0]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT)
+[2016.08.02-22.15.31:210][  0]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT)
+[2016.08.02-22.15.31:232][  0]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT)
+[2016.08.02-22.15.31:252][  0]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT)
+[2016.08.02-22.15.31:273][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.08.02-22.15.31:294][  0]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT)
+[2016.08.02-22.15.31:316][  0]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT)
+[2016.08.02-22.15.31:319][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.08.02-22.15.31:342][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.08.02-22.15.31:367][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.08.02-22.15.31:392][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.08.02-22.15.31:415][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2016.08.02-22.15.31:435][  0]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2016.08.02-22.15.31:452][  0]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2016.08.02-22.15.31:475][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8)
+[2016.08.02-22.15.31:491][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8)
+[2016.08.02-22.15.31:494][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8)
+[2016.08.02-22.15.31:498][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8)
+[2016.08.02-22.15.31:502][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8)
+[2016.08.02-22.15.31:505][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8)
+[2016.08.02-22.15.31:509][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8)
+[2016.08.02-22.15.31:512][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8)
+[2016.08.02-22.15.31:516][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8)
+[2016.08.02-22.15.31:517][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (G8)
+[2016.08.02-22.15.31:521][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8)
+[2016.08.02-22.15.31:522][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (G8)
+[2016.08.02-22.15.31:525][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (G8)
+[2016.08.02-22.15.31:526][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8)
+[2016.08.02-22.15.31:527][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8)
+[2016.08.02-22.15.31:529][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8)
+[2016.08.02-22.15.31:533][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (G8)
+[2016.08.02-22.15.31:536][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (G8)
+[2016.08.02-22.15.31:537][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (G8)
+[2016.08.02-22.15.31:538][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8)
+[2016.08.02-22.15.31:542][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (G8)
+[2016.08.02-22.15.31:629][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2016.08.02-22.15.31:709][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.02-22.15.31:740][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.02-22.15.31:744][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.02-22.15.31:768][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.168ms to complete.
+[2016.08.02-22.15.31:768][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 2.460
+[2016.08.02-22.15.32:530][  0]LogCollectionManager: Loaded 0 collections in 0.000987 seconds
+[2016.08.02-22.15.32:835][  0]LogFileCache: Scanning file cache for directory 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/Collections/' took 0.01s
+[2016.08.02-22.15.32:835][  0]LogFileCache: Scanning file cache for directory 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/Developers/danielpri6453/Collections/' took 0.01s
+[2016.08.02-22.15.32:835][  0]LogFileCache: Scanning file cache for directory 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/Collections/' took 0.01s
+[2016.08.02-22.15.32:835][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000011 seconds
+[2016.08.02-22.15.32:864][  0]LogContentBrowser: Native class hierarchy populated in 0.0286 seconds. Added 1978 classes and 343 folders.
+[2016.08.02-22.15.32:950][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.02-22.15.32:950][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.02-22.15.32:950][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.08.02-22.15.32:976][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.02-22.15.32:982][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.08.02-22.15.33:010][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.02-22.15.33:179][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.08.02-22.15.33:858][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.02-22.15.34:034][  0]LogTexture:Display: Building textures: Blueprint_64x (BGRA8)
+[2016.08.02-22.15.34:035][  0]LogTexture:Display: Building textures: icon_Editor_Preferences_General_40x (BGRA8)
+[2016.08.02-22.15.34:037][  0]LogTexture:Display: Building textures: Paper2DSprite_TutorialIcon (BGRA8)
+[2016.08.02-22.15.34:039][  0]LogTexture:Display: Building textures: icon_ShowSkeletalMeshes_40x (BGRA8)
+[2016.08.02-22.15.34:040][  0]LogTexture:Display: Building textures: Landscape (BGRA8)
+[2016.08.02-22.15.34:042][  0]LogTexture:Display: Building textures: Foliage (BGRA8)
+[2016.08.02-22.15.34:107][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.08.02-22.15.34:108][  0]LogLoad: Full Startup: 15.68 seconds (BP compile: 0.07 seconds)
+[2016.08.02-22.15.34:108][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.02-22.15.34:108][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.02-22.15.34:447][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.08.02-22.15.34:856][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.02-22.15.34:984][  0]LogTexture:Display: Building textures: icon_tab_Levels_40x (BGRA8)
+[2016.08.02-22.15.35:078][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
+[2016.08.02-22.15.35:275][  0]LogRenderer: Reallocating scene render targets to support 804x540 (Frame:3).
+[2016.08.02-22.15.35:324][  1]LogAssetRegistry: Asset discovery search completed in 13.7526 seconds
+[2016.08.02-22.15.35:324][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.02-22.15.35:324][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.08.02-22.15.43:155][571]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.02-22.15.43:155][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.02-22.15.43:239][571]PIE: New page: PIE session: FlyingExampleMap (3/08/2016 10:15:43 pm)
+[2016.08.02-22.15.43:239][571]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.02-22.15.43:303][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064266s)
+[2016.08.02-22.15.43:304][571]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.02-22.15.43:304][571]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2016.08.02-22.15.43:304][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.065387s)
+[2016.08.02-22.15.43:325][571]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.02-22.15.43:329][571]LogInit: FAudioDevice initialized.
+[2016.08.02-22.15.43:395][571]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.02-22.15.43:428][571]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-10.15.43
+[2016.08.02-22.15.43:437][571]LogWorld: Bringing up level for play took: 0.028671
+[2016.08.02-22.15.43:477][571]LogTexture:Display: Building textures: VirtualJoystick_Thumb (BGRA8)
+[2016.08.02-22.15.43:478][571]LogTexture:Display: Building textures: VirtualJoystick_Background (BGRA8)
+[2016.08.02-22.15.43:507][571]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 9 classes and 0 folders.
+[2016.08.02-22.15.43:527][571]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.563
+[2016.08.02-22.15.43:528][571]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.02-22.16.07:734][454]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.02-22.16.07:803][454]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.02-22.16.10:124][722]LogTexture:Display: Building textures: CameraActor_64x (BGRA8)
+[2016.08.02-22.16.10:128][722]LogTexture:Display: Building textures: BlueprintInterface_64x (BGRA8)
+[2016.08.02-22.16.10:131][722]LogTexture:Display: Building textures: BlueprintMacroLibrary_64x (BGRA8)
+[2016.08.02-22.16.10:229][722]LogTexture:Display: Building textures: IOS (BGRA8)
+[2016.08.02-22.16.10:238][722]LogTexture:Display: Building textures: android_Icon (BGRA8)
+[2016.08.02-22.16.10:241][722]LogTexture:Display: Building textures: Paper2DFlipbook_TutorialIcon (BGRA8)
+[2016.08.02-22.16.15:797][381]LogLinker:Warning: Can't find file '/Game/FlyingBP/Meshes/FlyingCubeRounded'
+[2016.08.02-22.16.15:798][381]LogLinker:Warning: Can't find file '/Game/FlyingBP/Meshes/FlyingCubeRounded'
+[2016.08.02-22.16.15:798][381]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/FlyingBP/Meshes/FlyingCubeRounded.FlyingCubeRounded'
+[2016.08.02-22.16.25:050][409]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 108 classes and 0 folders.
+[2016.08.02-22.16.26:144][409]LogTexture:Display: Building textures: TilePatine_N (BC5)
+[2016.08.02-22.16.26:195][409]LogTexture:Display: Building textures: TilePatine_D (AutoDXT)
+[2016.08.02-22.16.42:661][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.02-22.16.42:661][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.02-22.16.42:661][865]PIE: New page: PIE session: FlyingExampleMap (3/08/2016 10:16:42 pm)
+[2016.08.02-22.16.42:661][865]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.02-22.16.42:705][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043915s)
+[2016.08.02-22.16.42:705][865]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.02-22.16.42:706][865]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2016.08.02-22.16.42:706][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.044815s)
+[2016.08.02-22.16.42:740][865]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.02-22.16.42:745][865]LogInit: FAudioDevice initialized.
+[2016.08.02-22.16.42:771][865]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.02-22.16.42:783][865]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-10.16.42
+[2016.08.02-22.16.42:784][865]LogWorld: Bringing up level for play took: 0.011364
+[2016.08.02-22.16.42:785][865]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.177
+[2016.08.02-22.16.42:785][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.02-22.17.38:150][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.02-22.17.38:178][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.43.55:876][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.43.55:876][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-00.43.55:877][104]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 12:43:55 am)
+[2016.08.03-00.43.55:877][104]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-00.43.56:080][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.203471s)
+[2016.08.03-00.43.56:081][104]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-00.43.56:082][104]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2016.08.03-00.43.56:082][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.205263s)
+[2016.08.03-00.43.56:107][104]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-00.43.56:112][104]LogInit: FAudioDevice initialized.
+[2016.08.03-00.43.56:144][104]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-00.43.56:155][104]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-12.43.56
+[2016.08.03-00.43.56:156][104]LogWorld: Bringing up level for play took: 0.011247
+[2016.08.03-00.43.56:157][104]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.992
+[2016.08.03-00.43.56:157][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.44.09:223][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.44.09:251][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.44.40:319][368]LogEditorViewport: Clicking on Actor (LMB): FlyingPawn_C (FlyingPawn)
+[2016.08.03-00.44.45:518][940]LogEditorViewport: Clicking on Actor (LMB): FlyingPawn_C (FlyingPawn)
+[2016.08.03-00.44.46:068][  4]LogEditorViewport: Clicking on Actor (context menu): FlyingPawn_C (FlyingPawn)
+[2016.08.03-00.44.48:303][255]LogEditorViewport: Clicking on Actor (LMB): FlyingPawn_C (FlyingPawn)
+[2016.08.03-00.45.22:781][301]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.45.22:781][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-00.45.22:781][301]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 12:45:22 am)
+[2016.08.03-00.45.22:781][301]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-00.45.22:822][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040525s)
+[2016.08.03-00.45.22:822][301]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-00.45.22:822][301]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2016.08.03-00.45.22:823][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.041440s)
+[2016.08.03-00.45.22:908][301]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-00.45.22:926][301]LogInit: FAudioDevice initialized.
+[2016.08.03-00.45.22:957][301]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-00.45.22:981][301]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-12.45.22
+[2016.08.03-00.45.22:981][301]LogWorld: Bringing up level for play took: 0.021854
+[2016.08.03-00.45.22:982][301]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.187
+[2016.08.03-00.45.22:982][301]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.45.46:266][ 85]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.45.46:300][ 85]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.46.06:789][518]LogEditorViewport: Clicking on Actor (LMB): FlyingPawn_C (FlyingPawn)
+[2016.08.03-00.46.19:656][ 56]Cmd: TRANSACTION UNDO
+[2016.08.03-00.46.19:656][ 56]LogEditorTransaction: Undo Move Components
+[2016.08.03-00.46.20:693][147]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Plane mesh)
+[2016.08.03-00.46.28:662][ 53]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera)
+[2016.08.03-00.47.53:724][199]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.47.53:724][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-00.47.53:724][199]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 12:47:53 am)
+[2016.08.03-00.47.53:724][199]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-00.47.53:762][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037895s)
+[2016.08.03-00.47.53:763][199]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-00.47.53:763][199]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2016.08.03-00.47.53:763][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.038947s)
+[2016.08.03-00.47.53:804][199]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-00.47.53:815][199]LogInit: FAudioDevice initialized.
+[2016.08.03-00.47.53:846][199]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-00.47.53:864][199]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-12.47.53
+[2016.08.03-00.47.53:865][199]LogWorld: Bringing up level for play took: 0.016724
+[2016.08.03-00.47.53:866][199]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.689
+[2016.08.03-00.47.53:866][199]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.48.27:277][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.48.27:312][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-00.49.01:071][359]LogSavePackage: Save=811.96ms
+[2016.08.03-00.49.01:071][359]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/FlyingExampleMap_Auto1B45018AF4FDE1C7CD9023FB94ED1069A.tmp' to 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto1.umap'
+[2016.08.03-00.49.01:071][359]LogSavePackage: Total save time: 1142.30ms
+[2016.08.03-00.49.01:071][359]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto1.umap
+[2016.08.03-00.49.01:075][359]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 1.205
+[2016.08.03-00.49.01:075][359]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.205
+[2016.08.03-02.03.08:982][999]LogRenderer: Reallocating scene render targets to support 804x564 (Frame:155483).
+[2016.08.03-02.17.46:020][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.17.46:020][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.17.46:020][764]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:17:46 am)
+[2016.08.03-02.17.46:020][764]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.17.46:075][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054853s)
+[2016.08.03-02.17.46:076][764]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.17.46:076][764]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2016.08.03-02.17.46:076][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.056092s)
+[2016.08.03-02.17.46:122][764]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.17.46:133][764]LogInit: FAudioDevice initialized.
+[2016.08.03-02.17.46:162][764]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.17.46:174][764]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.17.46
+[2016.08.03-02.17.46:175][764]LogWorld: Bringing up level for play took: 0.012051
+[2016.08.03-02.17.46:176][764]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.892
+[2016.08.03-02.17.46:176][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.17.50:558][268]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.17.50:677][268]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.20.53:518][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.20.53:518][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.20.53:518][127]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:20:53 am)
+[2016.08.03-02.20.53:518][127]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.20.53:559][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040939s)
+[2016.08.03-02.20.53:560][127]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.20.53:560][127]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2016.08.03-02.20.53:560][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.042101s)
+[2016.08.03-02.20.53:603][127]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.20.53:615][127]LogInit: FAudioDevice initialized.
+[2016.08.03-02.20.53:648][127]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.20.53:674][127]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.20.53
+[2016.08.03-02.20.53:674][127]LogWorld: Bringing up level for play took: 0.024479
+[2016.08.03-02.20.53:675][127]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.381
+[2016.08.03-02.20.53:675][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.20.56:619][473]Set new viewmode: Wireframe
+[2016.08.03-02.20.57:056][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.20.57:090][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.21.38:718][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.21.38:718][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.21.38:718][325]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:21:38 am)
+[2016.08.03-02.21.38:718][325]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.21.38:757][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038727s)
+[2016.08.03-02.21.38:758][325]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.21.38:758][325]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2016.08.03-02.21.38:758][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.039568s)
+[2016.08.03-02.21.38:800][325]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.21.38:810][325]LogInit: FAudioDevice initialized.
+[2016.08.03-02.21.38:840][325]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.21.38:852][325]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.21.38
+[2016.08.03-02.21.38:852][325]LogWorld: Bringing up level for play took: 0.011516
+[2016.08.03-02.21.38:853][325]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.443
+[2016.08.03-02.21.38:853][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.21.40:342][499]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.21.40:382][499]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.22.54:764][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.22.54:764][865]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.08.03-02.22.54:791][865]LogPlayLevel: [PlayLevel] Compiling FlyingPawn before play...
+[2016.08.03-02.22.54:917][865]LogPlayLevel: PlayLevel: Blueprint regeneration took 152 ms (1 blueprints)
+[2016.08.03-02.22.54:931][865]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:22:54 am)
+[2016.08.03-02.22.54:931][865]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.22.54:979][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048019s)
+[2016.08.03-02.22.54:980][865]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.22.54:980][865]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2016.08.03-02.22.54:980][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.049004s)
+[2016.08.03-02.22.55:024][865]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.22.55:037][865]LogInit: FAudioDevice initialized.
+[2016.08.03-02.22.55:068][865]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.22.55:085][865]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.22.55
+[2016.08.03-02.22.55:086][865]LogWorld: Bringing up level for play took: 0.017391
+[2016.08.03-02.22.55:088][865]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.213
+[2016.08.03-02.22.55:088][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.01:002][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.01:047][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.02:202][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.02:202][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.23.02:202][534]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:23:02 am)
+[2016.08.03-02.23.02:202][534]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.23.02:245][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042180s)
+[2016.08.03-02.23.02:245][534]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.23.02:245][534]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2016.08.03-02.23.02:245][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.043004s)
+[2016.08.03-02.23.02:287][534]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.23.02:302][534]LogInit: FAudioDevice initialized.
+[2016.08.03-02.23.02:331][534]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.23.02:351][534]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.23.02
+[2016.08.03-02.23.02:351][534]LogWorld: Bringing up level for play took: 0.018710
+[2016.08.03-02.23.02:352][534]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 1.052
+[2016.08.03-02.23.02:352][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.23:256][647]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.23:304][647]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.24:734][756]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.24:734][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.23.24:734][756]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:23:24 am)
+[2016.08.03-02.23.24:734][756]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.23.24:779][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044851s)
+[2016.08.03-02.23.24:780][756]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.23.24:780][756]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2016.08.03-02.23.24:780][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.045828s)
+[2016.08.03-02.23.24:823][756]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.23.24:840][756]LogInit: FAudioDevice initialized.
+[2016.08.03-02.23.24:871][756]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.23.24:890][756]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.23.24
+[2016.08.03-02.23.24:891][756]LogWorld: Bringing up level for play took: 0.019051
+[2016.08.03-02.23.24:893][756]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.409
+[2016.08.03-02.23.24:893][756]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.29:580][222]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.29:626][222]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.36:994][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.36:994][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.23.36:994][823]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:23:36 am)
+[2016.08.03-02.23.36:994][823]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.23.37:032][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037931s)
+[2016.08.03-02.23.37:033][823]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.23.37:033][823]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2016.08.03-02.23.37:033][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.038817s)
+[2016.08.03-02.23.37:072][823]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.23.37:082][823]LogInit: FAudioDevice initialized.
+[2016.08.03-02.23.37:113][823]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.23.37:124][823]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.23.37
+[2016.08.03-02.23.37:125][823]LogWorld: Bringing up level for play took: 0.011085
+[2016.08.03-02.23.37:125][823]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.177
+[2016.08.03-02.23.37:126][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.46:454][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.46:499][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.54:062][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.23.54:062][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.23.54:062][382]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:23:54 am)
+[2016.08.03-02.23.54:062][382]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.23.54:101][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039206s)
+[2016.08.03-02.23.54:102][382]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.23.54:102][382]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2016.08.03-02.23.54:102][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.040153s)
+[2016.08.03-02.23.54:145][382]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.23.54:155][382]LogInit: FAudioDevice initialized.
+[2016.08.03-02.23.54:185][382]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.23.54:197][382]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.23.54
+[2016.08.03-02.23.54:197][382]LogWorld: Bringing up level for play took: 0.011148
+[2016.08.03-02.23.54:198][382]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.895
+[2016.08.03-02.23.54:198][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.29:018][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.29:067][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.36:834][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.36:834][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.24.36:834][537]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:24:36 am)
+[2016.08.03-02.24.36:834][537]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.24.36:873][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038288s)
+[2016.08.03-02.24.36:873][537]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.24.36:873][537]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2016.08.03-02.24.36:874][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.039176s)
+[2016.08.03-02.24.36:916][537]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.24.36:934][537]LogInit: FAudioDevice initialized.
+[2016.08.03-02.24.36:965][537]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.24.36:983][537]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.24.36
+[2016.08.03-02.24.36:984][537]LogWorld: Bringing up level for play took: 0.017923
+[2016.08.03-02.24.36:985][537]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.32
+[2016.08.03-02.24.36:985][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.38:838][717]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.38:884][717]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.48:986][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.48:987][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.24.48:987][531]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:24:48 am)
+[2016.08.03-02.24.48:987][531]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.24.49:024][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037726s)
+[2016.08.03-02.24.49:025][531]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.24.49:025][531]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2016.08.03-02.24.49:025][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.038590s)
+[2016.08.03-02.24.49:068][531]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.24.49:078][531]LogInit: FAudioDevice initialized.
+[2016.08.03-02.24.49:111][531]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.24.49:133][531]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.24.49
+[2016.08.03-02.24.49:134][531]LogWorld: Bringing up level for play took: 0.020051
+[2016.08.03-02.24.49:135][531]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.171
+[2016.08.03-02.24.49:135][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.52:472][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.52:518][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.59:705][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.24.59:705][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.24.59:705][443]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:24:59 am)
+[2016.08.03-02.24.59:705][443]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.24.59:743][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037682s)
+[2016.08.03-02.24.59:744][443]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.24.59:744][443]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2016.08.03-02.24.59:744][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.038491s)
+[2016.08.03-02.24.59:789][443]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.24.59:800][443]LogInit: FAudioDevice initialized.
+[2016.08.03-02.24.59:830][443]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.24.59:841][443]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.24.59
+[2016.08.03-02.24.59:842][443]LogWorld: Bringing up level for play took: 0.011110
+[2016.08.03-02.24.59:843][443]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.536
+[2016.08.03-02.24.59:843][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.25.01:463][603]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.25.01:511][603]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.25.05:631][933]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.25.05:631][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.25.05:631][933]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:25:05 am)
+[2016.08.03-02.25.05:631][933]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.25.05:666][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035618s)
+[2016.08.03-02.25.05:667][933]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.25.05:667][933]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2016.08.03-02.25.05:667][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.036457s)
+[2016.08.03-02.25.05:710][933]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.25.05:725][933]LogInit: FAudioDevice initialized.
+[2016.08.03-02.25.05:754][933]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.25.05:775][933]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.25.05
+[2016.08.03-02.25.05:776][933]LogWorld: Bringing up level for play took: 0.020262
+[2016.08.03-02.25.05:777][933]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.469
+[2016.08.03-02.25.05:777][933]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.25.09:724][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.25.09:767][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.25.11:310][386]LogSavePackage: Save=543.40ms
+[2016.08.03-02.25.11:310][386]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/FlyingExampleMapCF84C2D04C71FCB3F6DC66AD562FC319.tmp' to 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2016.08.03-02.25.11:313][386]LogSavePackage: Total save time: 573.96ms
+[2016.08.03-02.25.11:313][386]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/FlyingBP/Maps/FlyingExampleMap.umap
+[2016.08.03-02.25.11:336][386]LogFileHelpers: Saving map 'FlyingExampleMap' took 0.662
+[2016.08.03-02.25.11:358][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlyingBP/Blueprints/FlyingPawn" FILE="D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/FlyingBP/Blueprints/FlyingPawn.uasset" SILENT=true
+[2016.08.03-02.25.11:612][386]LogSavePackage: Save=139.32ms
+[2016.08.03-02.25.11:612][386]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/FlyingPawnA1F124804B92A1547B13B689CEBC904F.tmp' to 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2016.08.03-02.25.11:613][386]LogSavePackage: Total save time: 254.23ms
+[2016.08.03-02.25.11:613][386]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/FlyingBP/Blueprints/FlyingPawn.uasset
+[2016.08.03-02.29.36:908][ 20]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.29.36:908][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.29.36:908][ 20]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:29:36 am)
+[2016.08.03-02.29.36:908][ 20]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.29.36:946][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037503s)
+[2016.08.03-02.29.36:947][ 20]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.29.36:947][ 20]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2016.08.03-02.29.36:947][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.038498s)
+[2016.08.03-02.29.36:991][ 20]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.29.37:003][ 20]LogInit: FAudioDevice initialized.
+[2016.08.03-02.29.37:035][ 20]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.29.37:054][ 20]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.29.37
+[2016.08.03-02.29.37:054][ 20]LogWorld: Bringing up level for play took: 0.017587
+[2016.08.03-02.29.37:055][ 20]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.266
+[2016.08.03-02.29.37:056][ 20]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.29.39:347][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.29.39:391][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.30.01:383][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.30.01:383][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.30.01:383][928]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:30:01 am)
+[2016.08.03-02.30.01:383][928]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.30.01:422][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039163s)
+[2016.08.03-02.30.01:423][928]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.30.01:423][928]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2016.08.03-02.30.01:423][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.040072s)
+[2016.08.03-02.30.01:468][928]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.30.01:477][928]LogInit: FAudioDevice initialized.
+[2016.08.03-02.30.01:502][928]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.30.01:513][928]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.30.01
+[2016.08.03-02.30.01:514][928]LogWorld: Bringing up level for play took: 0.011420
+[2016.08.03-02.30.01:515][928]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.192
+[2016.08.03-02.30.01:515][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.30.51:127][676]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.30.51:171][676]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.36.03:981][745]LogSavePackage: Save=521.91ms
+[2016.08.03-02.36.03:981][745]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/FlyingExampleMap_Auto2BE01DA2B49DD0F5C7E0DE697F20A29DA.tmp' to 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto2.umap'
+[2016.08.03-02.36.03:982][745]LogSavePackage: Total save time: 535.34ms
+[2016.08.03-02.36.03:982][745]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto2.umap
+[2016.08.03-02.36.03:983][745]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.553
+[2016.08.03-02.36.03:983][745]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.553
+[2016.08.03-02.58.04:542][243]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.58.04:542][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.03-02.58.04:542][243]PIE: New page: PIE session: FlyingExampleMap (4/08/2016 2:58:04 am)
+[2016.08.03-02.58.04:542][243]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2016.08.03-02.58.04:582][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039895s)
+[2016.08.03-02.58.04:583][243]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2016.08.03-02.58.04:583][243]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2016.08.03-02.58.04:583][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.040991s)
+[2016.08.03-02.58.04:628][243]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.03-02.58.04:633][243]LogInit: FAudioDevice initialized.
+[2016.08.03-02.58.04:666][243]LogWorld: Game class is 'FlyingGameMode_C'
+[2016.08.03-02.58.04:686][243]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2016.08.03-14.58.04
+[2016.08.03-02.58.04:687][243]LogWorld: Bringing up level for play took: 0.019475
+[2016.08.03-02.58.04:688][243]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.649
+[2016.08.03-02.58.04:689][243]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.58.34:692][127]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-02.58.34:742][127]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2016.08.03-03.33.54:038][261]LogSavePackage: Save=552.03ms
+[2016.08.03-03.33.54:038][261]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Saved/FlyingExampleMapC2642D9A4B90444F60DC20AC60FDAA79.tmp' to 'D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2016.08.03-03.33.54:040][261]LogSavePackage: Total save time: 567.72ms
+[2016.08.03-03.33.54:040][261]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/Unreal Projects/MockFlying/Content/FlyingBP/Maps/FlyingExampleMap.umap
+[2016.08.03-03.33.54:047][261]LogFileHelpers: Saving map 'FlyingExampleMap' took 0.751
+[2016.08.03-03.33.59:289][643]LogUProjectInfo: Found projects:
+[2016.08.03-03.34.23:191][989]Cmd: QUIT_EDITOR
+[2016.08.03-03.34.24:105][989]LogExit: Preparing to exit.
+[2016.08.03-03.34.26:109][989]LogExit: Editor shut down
+[2016.08.03-03.34.26:109][989]LogExit: Transaction tracking system shut down
+[2016.08.03-03.34.29:822][989]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.03-03.34.29:822][989]LogExit: Object subsystem successfully closed.
+[2016.08.03-03.34.30:347][989]LogD3D11RHI: Shutdown
+[2016.08.03-03.34.30:347][989]LogD3D11RHI: CleanupD3DDevice
+[2016.08.03-03.34.30:541][989]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.03-03.34.30:784][989]LogDerivedDataCache: Shutdown
+[2016.08.03-03.34.33:692][989]LogModuleManager: Shutting down and abandoning module BlueprintGraph (205)
+[2016.08.03-03.34.33:730][989]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (204)
+[2016.08.03-03.34.33:739][989]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (203)
+[2016.08.03-03.34.33:796][989]LogModuleManager: Shutting down and abandoning module CrashTracker (202)
+[2016.08.03-03.34.33:796][989]LogModuleManager: Shutting down and abandoning module SceneOutliner (201)
+[2016.08.03-03.34.33:883][989]LogModuleManager: Shutting down and abandoning module SuperSearch (200)
+[2016.08.03-03.34.33:883][989]LogModuleManager: Shutting down and abandoning module WidgetCarousel (199)
+[2016.08.03-03.34.33:883][989]LogModuleManager: Shutting down and abandoning module AddContentDialog (198)
+[2016.08.03-03.34.34:005][989]LogModuleManager: Shutting down and abandoning module GameplayTags (197)
+[2016.08.03-03.34.34:005][989]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2016.08.03-03.34.34:005][989]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2016.08.03-03.34.34:094][989]LogModuleManager: Shutting down and abandoning module StatsViewer (194)
+[2016.08.03-03.34.34:160][989]LogModuleManager: Shutting down and abandoning module FoliageEdit (193)
+[2016.08.03-03.34.34:274][989]LogModuleManager: Shutting down and abandoning module LandscapeEditor (192)
+[2016.08.03-03.34.34:461][989]LogModuleManager: Shutting down and abandoning module ActorPickerMode (191)
+[2016.08.03-03.34.34:461][989]LogModuleManager: Shutting down and abandoning module GeometryMode (190)
+[2016.08.03-03.34.34:461][989]LogModuleManager: Shutting down and abandoning module TextureAlignMode (189)
+[2016.08.03-03.34.34:461][989]LogModuleManager: Shutting down and abandoning module BspMode (188)
+[2016.08.03-03.34.34:461][989]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2016.08.03-03.34.34:461][989]LogModuleManager: Shutting down and abandoning module AutomationWorker (186)
+[2016.08.03-03.34.34:461][989]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2016.08.03-03.34.34:461][989]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2016.08.03-03.34.34:461][989]LogModuleManager: Shutting down and abandoning module ViewportSnapping (183)
+[2016.08.03-03.34.34:461][989]LogModuleManager: Shutting down and abandoning module LogVisualizer (182)
+[2016.08.03-03.34.34:916][989]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (181)
+[2016.08.03-03.34.34:916][989]LogModuleManager: Shutting down and abandoning module IntroTutorials (180)
+[2016.08.03-03.34.35:090][989]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (179)
+[2016.08.03-03.34.35:090][989]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (178)
+[2016.08.03-03.34.35:147][989]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (177)
+[2016.08.03-03.34.35:147][989]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (176)
+[2016.08.03-03.34.35:916][989]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (175)
+[2016.08.03-03.34.35:916][989]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (174)
+[2016.08.03-03.34.35:916][989]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (173)
+[2016.08.03-03.34.35:916][989]LogModuleManager: Shutting down and abandoning module MergeActors (172)
+[2016.08.03-03.34.35:960][989]LogModuleManager: Shutting down and abandoning module SizeMap (171)
+[2016.08.03-03.34.36:017][989]LogModuleManager: Shutting down and abandoning module TreeMap (170)
+[2016.08.03-03.34.36:094][989]LogModuleManager: Shutting down and abandoning module ReferenceViewer (169)
+[2016.08.03-03.34.36:106][989]LogModuleManager: Shutting down and abandoning module LocalizationService (168)
+[2016.08.03-03.34.36:159][989]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (167)
+[2016.08.03-03.34.36:279][989]LogModuleManager: Shutting down and abandoning module HardwareTargeting (166)
+[2016.08.03-03.34.36:279][989]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (165)
+[2016.08.03-03.34.36:326][989]LogModuleManager: Shutting down and abandoning module UndoHistory (164)
+[2016.08.03-03.34.36:331][989]LogModuleManager: Shutting down and abandoning module UserFeedback (163)
+[2016.08.03-03.34.36:331][989]LogModuleManager: Shutting down and abandoning module XmlParser (162)
+[2016.08.03-03.34.36:420][989]LogModuleManager: Shutting down and abandoning module Blutility (161)
+[2016.08.03-03.34.36:427][989]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (160)
+[2016.08.03-03.34.36:428][989]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (159)
+[2016.08.03-03.34.36:428][989]LogModuleManager: Shutting down and abandoning module InputBindingEditor (158)
+[2016.08.03-03.34.36:512][989]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (157)
+[2016.08.03-03.34.36:513][989]LogModuleManager: Shutting down and abandoning module SettingsEditor (156)
+[2016.08.03-03.34.36:582][989]LogModuleManager: Shutting down and abandoning module ProjectLauncher (155)
+[2016.08.03-03.34.36:679][989]LogModuleManager: Shutting down and abandoning module SessionFrontend (154)
+[2016.08.03-03.34.36:689][989]LogModuleManager: Shutting down and abandoning module ProfilerClient (153)
+[2016.08.03-03.34.36:749][989]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (152)
+[2016.08.03-03.34.36:807][989]LogModuleManager: Shutting down and abandoning module DeviceManager (151)
+[2016.08.03-03.34.36:904][989]LogModuleManager: Shutting down and abandoning module AutomationController (150)
+[2016.08.03-03.34.36:966][989]LogModuleManager: Shutting down and abandoning module AutomationWindow (149)
+[2016.08.03-03.34.37:051][989]LogModuleManager: Shutting down and abandoning module Layers (148)
+[2016.08.03-03.34.37:151][989]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (147)
+[2016.08.03-03.34.37:151][989]LogModuleManager: Shutting down and abandoning module DetailCustomizations (146)
+[2016.08.03-03.34.37:303][989]LogModuleManager: Shutting down and abandoning module PackagesDialog (145)
+[2016.08.03-03.34.37:373][989]LogModuleManager: Shutting down and abandoning module Persona (144)
+[2016.08.03-03.34.37:560][989]LogModuleManager: Shutting down and abandoning module Kismet (143)
+[2016.08.03-03.34.37:607][989]LogModuleManager: Shutting down and abandoning module GraphEditor (142)
+[2016.08.03-03.34.37:607][989]LogModuleManager: Shutting down and abandoning module ClassViewer (141)
+[2016.08.03-03.34.37:639][989]LogModuleManager: Shutting down and abandoning module Toolbox (140)
+[2016.08.03-03.34.37:692][989]LogModuleManager: Shutting down and abandoning module ModuleUI (139)
+[2016.08.03-03.34.37:705][989]LogModuleManager: Shutting down and abandoning module MovieSceneTools (138)
+[2016.08.03-03.34.37:738][989]LogModuleManager: Shutting down and abandoning module OutputLog (137)
+[2016.08.03-03.34.37:838][989]LogModuleManager: Shutting down and abandoning module GammaUI (136)
+[2016.08.03-03.34.37:989][989]LogModuleManager: Shutting down and abandoning module Documentation (135)
+[2016.08.03-03.34.37:989][989]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (134)
+[2016.08.03-03.34.37:989][989]LogModuleManager: Shutting down and abandoning module AnalyticsET (133)
+[2016.08.03-03.34.37:989][989]LogModuleManager: Shutting down and abandoning module Analytics (132)
+[2016.08.03-03.34.37:989][989]LogModuleManager: Shutting down and abandoning module PortalServices (131)
+[2016.08.03-03.34.37:989][989]LogModuleManager: Shutting down and abandoning module PortalRpc (130)
+[2016.08.03-03.34.37:989][989]LogModuleManager: Shutting down and abandoning module MessagingRpc (129)
+[2016.08.03-03.34.37:989][989]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.08.03-03.34.38:001][989]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.08.03-03.34.38:040][989]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.08.03-03.34.38:040][989]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.08.03-03.34.38:333][989]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.08.03-03.34.38:551][989]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.08.03-03.34.38:552][989]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.08.03-03.34.38:552][989]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.08.03-03.34.38:552][989]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.08.03-03.34.38:552][989]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.08.03-03.34.38:552][989]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.08.03-03.34.38:552][989]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2016.08.03-03.34.38:552][989]LogModuleManager: Shutting down and abandoning module CableComponent (116)
+[2016.08.03-03.34.38:552][989]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
+[2016.08.03-03.34.38:552][989]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (114)
+[2016.08.03-03.34.38:927][989]LogModuleManager: Shutting down and abandoning module HTML5Networking (113)
+[2016.08.03-03.34.38:927][989]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (112)
+[2016.08.03-03.34.38:927][989]LogModuleManager: Shutting down and abandoning module PluginBrowser (111)
+[2016.08.03-03.34.39:024][989]LogModuleManager: Shutting down and abandoning module EpicSurvey (110)
+[2016.08.03-03.34.39:116][989]LogModuleManager: Shutting down and abandoning module DesktopPlatform (109)
+[2016.08.03-03.34.39:116][989]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (108)
+[2016.08.03-03.34.39:127][989]LogModuleManager: Shutting down and abandoning module UObjectPlugin (107)
+[2016.08.03-03.34.39:127][989]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (106)
+[2016.08.03-03.34.39:167][989]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (105)
+[2016.08.03-03.34.39:424][989]LogModuleManager: Shutting down and abandoning module SourceControl (104)
+[2016.08.03-03.34.39:434][989]LogModuleManager: Shutting down and abandoning module GitSourceControl (103)
+[2016.08.03-03.34.39:512][989]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (102)
+[2016.08.03-03.34.39:513][989]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (101)
+[2016.08.03-03.34.39:527][989]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (100)
+[2016.08.03-03.34.39:527][989]LogModuleManager: Shutting down and abandoning module MeshPaint (99)
+[2016.08.03-03.34.39:586][989]LogModuleManager: Shutting down and abandoning module HotReload (98)
+[2016.08.03-03.34.39:638][989]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2016.08.03-03.34.39:638][989]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2016.08.03-03.34.39:640][989]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
+[2016.08.03-03.34.39:640][989]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
+[2016.08.03-03.34.40:025][989]LogModuleManager: Shutting down and abandoning module ContentBrowser (93)
+[2016.08.03-03.34.40:026][989]LogModuleManager: Shutting down and abandoning module Paper2DEditor (92)
+[2016.08.03-03.34.40:226][989]LogModuleManager: Shutting down and abandoning module UdpMessaging (91)
+[2016.08.03-03.34.40:326][989]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (90)
+[2016.08.03-03.34.40:326][989]LogModuleManager: Shutting down and abandoning module Paper2D (89)
+[2016.08.03-03.34.40:463][989]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (88)
+[2016.08.03-03.34.40:520][989]LogModuleManager: Shutting down and abandoning module Media (87)
+[2016.08.03-03.34.40:520][989]LogModuleManager: Shutting down and abandoning module WmfMedia (86)
+[2016.08.03-03.34.40:555][989]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.08.03-03.34.40:555][989]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.08.03-03.34.40:555][989]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.08.03-03.34.40:555][989]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.08.03-03.34.40:555][989]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.08.03-03.34.40:555][989]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.08.03-03.34.40:660][989]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.08.03-03.34.40:660][989]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.08.03-03.34.40:701][989]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.08.03-03.34.40:702][989]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.08.03-03.34.40:702][989]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.08.03-03.34.40:780][989]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.08.03-03.34.40:948][989]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.08.03-03.34.41:075][989]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.08.03-03.34.41:173][989]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.08.03-03.34.41:261][989]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.08.03-03.34.41:261][989]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.08.03-03.34.41:264][989]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.08.03-03.34.41:264][989]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.08.03-03.34.41:264][989]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.08.03-03.34.41:264][989]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.08.03-03.34.41:264][989]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.08.03-03.34.41:264][989]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.08.03-03.34.41:264][989]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.08.03-03.34.41:312][989]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.08.03-03.34.41:312][989]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.08.03-03.34.41:379][989]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.08.03-03.34.41:380][989]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.08.03-03.34.41:380][989]LogDerivedDataCache: Shutdown
+[2016.08.03-03.34.41:380][989]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.08.03-03.34.41:432][989]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.08.03-03.34.41:550][989]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.08.03-03.34.41:556][989]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.08.03-03.34.41:556][989]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.08.03-03.34.41:617][989]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.08.03-03.34.41:644][989]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.08.03-03.34.41:644][989]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.08.03-03.34.41:644][989]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.08.03-03.34.41:644][989]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.08.03-03.34.41:644][989]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.08.03-03.34.41:694][989]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.08.03-03.34.41:699][989]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.08.03-03.34.41:753][989]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.08.03-03.34.41:753][989]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.08.03-03.34.41:810][989]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.08.03-03.34.41:823][989]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.08.03-03.34.41:823][989]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.03-03.34.41:823][989]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.03-03.34.41:823][989]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.03-03.34.41:823][989]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.03-03.34.41:823][989]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.03-03.34.41:832][989]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.03-03.34.41:832][989]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.03-03.34.41:832][989]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.03-03.34.41:832][989]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.03-03.34.41:832][989]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.03-03.34.41:832][989]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.03-03.34.41:832][989]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.03-03.34.41:832][989]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.03-03.34.41:837][989]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.03-03.34.41:879][989]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.03-03.34.41:883][989]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.03-03.34.41:883][989]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.03-03.34.41:883][989]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.03-03.34.41:883][989]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.03-03.34.41:883][989]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.03-03.34.41:911][989]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.03-03.34.43:911][989]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.03-03.34.43:954][989]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.03-03.34.44:088][989]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.03-03.34.44:088][989]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.03-03.34.44:158][989]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.03-03.34.44:158][989]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.03-03.34.44:158][989]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.03-03.34.44:216][989]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.03-03.34.44:410][989]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.03-03.34.44:410][989]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.03-03.34.44:410][989]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.03-03.34.44:410][989]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.03-03.34.44:410][989]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.03-03.34.44:410][989]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.03-03.34.44:503][989]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.03-03.34.44:575][989]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.03-03.34.44:640][989]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.03-03.34.44:770][989]LogExit: Exiting.
+[2016.08.03-03.34.44:871][989]Log file closed, 08/03/16 15:34:44
